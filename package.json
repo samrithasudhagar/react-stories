@@ -1,0 +1,56 @@
+{
+  "name": "reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.8.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "classnames": "^2.2.6",
+    "react": "^16.12.0",
+    "react-debounce-input": "^3.2.2",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "react-key-handler": "^1.2.0-beta.3",
+    "react-keydown": "^1.9.12",
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.3.0",
+    "react-scroll": "^1.7.15",
+    "react-scroll-into-view": "^1.6.0",
+    "react-spinners": "^0.8.0",
+    "react-thunk": "^1.0.0",
+    "react-toolbox": "^2.0.0-beta.13",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8"
+  }
+}
